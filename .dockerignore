@@ -21,9 +21,9 @@ venv
 *.db
 *.db-journal
 
-# ── JS/TS SDKs (not needed in Python image) ──────────────────────────────────
+# ── JavaScript SDK is not used by the Docker images ───────────────────────
 sdk/js/
-sdk/mcp/
+# sdk/mcp/ intentionally included for Dockerfile.railway
 
 # ── Website & docs ───────────────────────────────────────────────────────────
 website/
